@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Dit is een eenvoudige website</title>
+        <style>
+          body {background-image: url("afbeeldingen/c5bffdbd12a024a93be1fad51ce20eb8.jpg");}
+          </style>
+    </head>
+    
+    <body>
+      
+        <main>
+            <header>
+                <h1 id="hoofdtitel" class="belangrijk">De beste site van Nederland</h1>
+            </header>
+            
+            <nav>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="overmij.html">Over mij</a></li>
+                    <li><a href="info.html">Fun Facts about characters!</a></li>
+                </ul>
+            </nav>
+            
+            <article>
+                <p><img class="zweefLinks" src="afbeeldingen/loremipsum.jpg">
+                 Lorem  <a href="http://www.encyclo.nl/begrip/dum%20vivimus%20vivamus">Vivamus</a> elementum </p>
+                <p><img class="zweefLinks" src="afbeeldingen/744x1200 2.jpg" width="120" height="100">Etiam .</p>
+                <p>Nam .</p>
+            </article>
+        
+            <footer>
+                <hr/>
+                <p>info@emmauscollege.nl</p>
+                <p class="smalltext">copyright A.P. Cammeraat 2016</p>
+            </footer>
+        
+        </main>
+    
+    </body>
+
+</html>
